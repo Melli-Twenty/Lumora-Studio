@@ -17,7 +17,13 @@ Buka alamat yang tampil di terminal (biasanya http://localhost:5173).
 npm run build
 ```
 
-Unggah isi folder `dist` ke Vercel, Netlify, atau Cloudflare Pages.
+Hasil build tersedia di folder `dist`.
+
+## Deploy ke GitHub Pages
+
+Workflow GitHub Actions akan membangun dan menerbitkan situs setiap kali ada push ke branch `main`.
+Aktifkan **Settings > Pages > Build and deployment > Source > GitHub Actions** satu kali di repositori.
+Alamat situs untuk repositori ini: https://melli-twenty.github.io/Lumora-Studio/
 
 ## Yang wajib diganti sebelum dipakai
 
