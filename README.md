@@ -23,6 +23,7 @@ Hasil build tersedia di folder `dist`.
 
 Workflow GitHub Actions akan membangun dan menerbitkan situs setiap kali ada push ke branch `main`.
 Aktifkan **Settings > Pages > Build and deployment > Source > GitHub Actions** satu kali di repositori.
+Jika baru mengganti Source dan situs belum diperbarui, jalankan workflow **Deploy to GitHub Pages** dari tab Actions.
 Alamat situs untuk repositori ini: https://melli-twenty.github.io/Lumora-Studio/
 
 ## Yang wajib diganti sebelum dipakai
